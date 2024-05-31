@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="I6huVxgnvKq1IgaI4ounEjXnd410liKiGOFsHqkb">
+
+        <title>Metacleaner - Clean your files metadata online</title>
+
+        <!-- Material icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+        <!-- Styles -->
+        <link rel="preload" as="style" href="https://metacleaner.com/build/assets/app-a7c8430d.css" /><link rel="stylesheet" href="https://metacleaner.com/build/assets/app-a7c8430d.css" data-navigate-track="reload" />        <!-- Livewire Styles --><style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.default], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none;}</style>
+
+            <link rel="preload" as="style" href="https://metacleaner.com/build/assets/auth-page-b15f2291.css" /><link rel="stylesheet" href="https://metacleaner.com/build/assets/auth-page-b15f2291.css" data-navigate-track="reload" />        <script src="https://www.google.com/recaptcha/api.js?render=6Lc-H6QpAAAAAI8ppRu-2qtpYJ-GYzphiZ-Fkh_4"></script>
+    </head>
+    <body id="page-top">
+        <div>
+            <div class="auth-page-container">
+    <div class="card auth-container">
+        <div class="cancel">
+                            <a href="https://metacleaner.com"><mat-icon _ngcontent-c23="" class="mat-icon material-icons" role="img" aria-hidden="true">cancel</mat-icon></a>
+                    </div>
+        <div class="logo">
+            <img class="brand-logo" src="/img/metacleaner_logo_only_dark.svg" />
+        </div>
+
+        <p class="brand-text">MetaCleaner</p>
+
+        <form class="metacleaner-form" method="POST" action="https://metacleaner.com/login" id="login-form">
+            <input type="hidden" name="_token" value="I6huVxgnvKq1IgaI4ounEjXnd410liKiGOFsHqkb" autocomplete="off">            <div class="form-group">
+                <input  class="border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control" id="email" placeholder="Email address*" type="email" name="email" required="required" autofocus="autofocus" autocomplete="username">
+                            </div>
+            <div class="form-group">
+                <input  class="border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm form-control" id="password" placeholder="Password*" type="password" name="password" required="required" autocomplete="current-password">
+                            </div>
+            
+            <div class="form-check" style="padding-left: 0;">
+                <label for="remember_me" class="form-check-label">
+                    <span class="check-text">
+                        Remember me
+                    </span>
+                    <input type="checkbox" id="remember_me" class="form-check-input" name="remember" />
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="action">
+                <button type="submit" class="inline-flex items-center px-4 py-2 bg-gray-800 dark:bg-gray-200 border border-transparent rounded-md font-semibold text-xs text-white dark:text-gray-800 uppercase tracking-widest hover:bg-gray-700 dark:hover:bg-white focus:bg-gray-700 dark:focus:bg-white active:bg-gray-900 dark:active:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800 transition ease-in-out duration-150 g-recaptcha button-dark full-width disable-overlay mat-button" style="border-radius: 10px;" id="login-submit-button" data-sitekey="6Lc-H6QpAAAAAI8ppRu-2qtpYJ-GYzphiZ-Fkh_4" data-callback="onSubmit" data-action="submit">
+    Sign in
+</button>
+                                    <a class="link mt-4" href="https://metacleaner.com/forgot-password">
+                        Forgot your password?
+                    </a>
+                            </div>
+            <hr>
+        </form>
+       
+        <p>Don't have an account yet? <a class="link" href="register">Register</a></p>
+    </div>
+</div>
+        </div>
+        <link rel="modulepreload" href="https://metacleaner.com/build/assets/app-ff89b90e.js" /><script type="module" src="https://metacleaner.com/build/assets/app-ff89b90e.js" data-navigate-track="reload"></script>            <script>
+        function onSubmit(token) {
+            $('#login-form').submit();
+        }
+    </script>
+        <script src="/livewire/livewire.js?id=2f6e5d4d"   data-csrf="I6huVxgnvKq1IgaI4ounEjXnd410liKiGOFsHqkb" data-uri="/livewire/update" data-navigate-once="true"></script>
+
+        <!-- Google Analytics - just ignore this -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123057962-1"></script>
+        <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-123057962-1');</script>
+    </body>
+</html>
